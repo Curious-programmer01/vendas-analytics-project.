@@ -20,6 +20,6 @@ CREATE TABLE item_pedido (
   pedido_id INT,
   produto_id INT,
   quantidade INT,
-   FOREIGN KEY (pedido_id) REFERENCES pedido(id),b
+   FOREIGN KEY (pedido_id) REFERENCES pedido(id),
    FOREIGN KEY (produto_id) REFERENCES produto(id)
   );
